@@ -1,0 +1,15 @@
+ p-4 rounded-md shadow shadow-white
+
+ 
+
+ function handelCodeCopy() {
+        const codeToCopy = `
+        Copy to Code
+        `;
+        navigator.clipboard.writeText(codeToCopy)
+    }
+
+
+ <div onClick={handelCodeCopy} className="mt-4 opacity-60 hover:opacity-80 w-fit font-medium text-white rounded-md">
+    <DialogBox />
+</div>

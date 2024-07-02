@@ -4,7 +4,7 @@
 
 
 /* shows controls on hover */
-/* .controls {
+.controls {
     opacity: 0;
 }
 .trigger:hover .controls {
@@ -12,6 +12,6 @@
 }
 .trigger:hover .overlay {
     --bg-opacity: 0.75;
-} */
+} 
 
 

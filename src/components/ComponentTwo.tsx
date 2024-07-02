@@ -5,7 +5,12 @@ export function ComponentTwo() {
 
 
     function handelCodeCopy() {
-        const codeToCopy = `<div className="container mx-auto">
+        const codeToCopy = `
+        react-icons import
+        ------------------
+        import { FaRegEdit } from "react-icons/fa";
+
+        <div className="container mx-auto">
             <div className="bg-white shadow rounded mx-auto pb-4 lg:pb-8 w-full">
                 <h2 className="p-4 lg:p-8 text-lg leading-4 font-bold text-color">Approved Payment Modes</h2>
                 <div className="relative bg-gray-100 flex  rounded mx-4 lg:mx-8 mb-4">

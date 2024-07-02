@@ -7,11 +7,22 @@
 .controls {
     opacity: 0;
 }
+
 .trigger:hover .controls {
     opacity: 1;
 }
+
 .trigger:hover .overlay {
     --bg-opacity: 0.75;
-} 
+}
 
 
+.top-arrow-border {
+    border: 1px solid rgba(128, 128, 128, 0.253);
+}
+
+.arrow-border-profile {
+    /* border-r-0 border-b-0 */
+    border-right: 0 ;
+    border-bottom: 0;
+}

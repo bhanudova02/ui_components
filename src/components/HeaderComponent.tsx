@@ -12,10 +12,13 @@ export function HeaderComponent() {
                     <Image src={'/logo.png'} width={600} height={600} priority alt="Logo" className="w-16" />
                 </div>
                 <div>
-                    <ul className="flex items-center gap-4">
+                    <ul className="flex items-center gap-6 font-medium">
                         <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li>CompsOne</li>
+                        <li>CompsTwo</li>
+                        <li>CompsThree</li>
+                        <li>CompsFour</li>
+                        <li>Contact Us</li>
                     </ul>
                 </div>
                 <div className="flex items-center gap-4">

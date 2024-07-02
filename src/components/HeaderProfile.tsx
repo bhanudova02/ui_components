@@ -1,18 +1,10 @@
 'use client'
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+import {DropdownMenu,DropdownMenuContent,DropdownMenuItem,DropdownMenuLabel,DropdownMenuTrigger,} from "@/components/ui/dropdown-menu"
 import Image from "next/image"
-
 export function HeaderProfile() {
     return (
         <DropdownMenu>
-            <DropdownMenuTrigger >
+            <DropdownMenuTrigger asChild className="cursor-pointer">
                 <Image src={'/profile_logo.jpg'} width={600} height={600} alt="ProfileLogo" className="w-10 rounded-md object-contain" />
             </DropdownMenuTrigger>
             <DropdownMenuContent className="me-5 md:me-6 mt-3">

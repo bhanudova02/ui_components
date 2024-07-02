@@ -9,11 +9,11 @@ import { ComponentTwo } from "@/components/ComponentTwo";
 export default function Home() {
   return (
     <div className="pt-24 pb-14 bg-black/50 space-y-16">
-      {/* <CardComponentOne />
+      <ComponentFour/>
+      <CardComponentOne />
       <ComponentOne />
       <ComponentTwo/>
       <ComponentThree/>
-      <ComponentFour/> */}
       <ComponentFive/>
       <ComponentSix/>
     </div>

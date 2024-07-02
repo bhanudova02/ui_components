@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* shows controls on hover */
+/* .controls {
+    opacity: 0;
+}
+.trigger:hover .controls {
+    opacity: 1;
+}
+.trigger:hover .overlay {
+    --bg-opacity: 0.75;
+} */
+
+

@@ -1,10 +1,14 @@
- p-4 rounded-md shadow shadow-white
-
+        
  
+
+
 
  function handelCodeCopy() {
         const codeToCopy = `
-        Copy to Code
+        Image Source Link: 
+        ------------------
+        https://www.mediafire.com/folder/tatwoecdmiw2b/Component+Images
+
         `;
         navigator.clipboard.writeText(codeToCopy)
     }

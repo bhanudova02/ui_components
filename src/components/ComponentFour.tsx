@@ -55,9 +55,9 @@ Style.Css
  
  <div className="container mx-auto">
             <div className="w-full bg-white py-3 sm:py-6 px-4 sm:px-8 shadow rounded mt-8">
-                <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between">
-                    <h2 className="w-1/2 text-gray-800 text-lg">Images</h2>
-                    <div className="w-full lg:w-1/2 flex flex-col lg:flex-row items-start lg:items-center lg:justify-end">
+                <div className="mb-6 flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-between px-8">
+                    <h2 className=" text-gray-800 text-lg">Images</h2>
+                    <div className="">
                         <div className="flex items-center">
                             <div className="text-gray-600 mx-2 p-2 border-transparent border bg-gray-100 hover:bg-gray-200 cursor-pointer rounded focus:outline-none focus:border-gray-800 focus:shadow-outline-gray">
                                 <GoShareAndroid className="text-xl" />
@@ -143,9 +143,9 @@ Style.Css
     return (
         <div className="container mx-auto">
             <div className="w-full bg-white py-3 sm:py-6 px-4 sm:px-8 shadow rounded mt-8">
-                <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between">
-                    <h2 className="w-1/2 text-gray-800 text-lg">Images</h2>
-                    <div className="w-full lg:w-1/2 flex flex-col lg:flex-row items-start lg:items-center lg:justify-end">
+                <div className="mb-6 flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-between px-8">
+                    <h2 className=" text-gray-800 text-lg">Images</h2>
+                    <div className="">
                         <div className="flex items-center">
                             <div className="text-gray-600 mx-2 p-2 border-transparent border bg-gray-100 hover:bg-gray-200 cursor-pointer rounded focus:outline-none focus:border-gray-800 focus:shadow-outline-gray">
                                 <GoShareAndroid className="text-xl" />

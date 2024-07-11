@@ -3,6 +3,7 @@ import Image from "next/image";
 import { HeaderProfile } from "./HeaderProfile";
 import { HeaderNotification } from "./HeaderNotification";
 import { SideNavComponent } from "./SideNavComponent";
+import Link from "next/link";
 
 export function HeaderComponent() {
     return (
@@ -12,18 +13,18 @@ export function HeaderComponent() {
                     <div className="lg:hidden block">
                         <SideNavComponent />
                     </div>
-                    <div>
+                    <Link href="/">
                         <Image src={'/logo.png'} width={600} height={600} priority alt="Logo" className="w-12 md:w-16" />
-                    </div>
+                    </Link>
                 </div>
                 <div className="lg:block hidden">
                     <ul className="flex items-center gap-6 font-medium">
-                        <li>Home</li>
-                        <li>CompsOne</li>
-                        <li>CompsTwo</li>
-                        <li>CompsThree</li>
-                        <li>CompsFour</li>
-                        <li>Contact Us</li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/ui_one">CompsOne</Link></li>
+                        <li><Link href="/ui_two">CompsTwo</Link></li>
+                        <li><Link href="/ui_three">CompsThree</Link></li>
+                        <li><Link href="/ui_four">CompsFour</Link></li>
+                        <li><Link href="/contact_us">Contact Us</Link></li>
                     </ul>
                 </div>
                 <div className="flex items-center gap-4">

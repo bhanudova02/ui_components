@@ -58,7 +58,7 @@ export function ComponentTwelve() {
             <div className="grid grid-cols-1 md:grid-cols-2">
                 {/* Box One */}
                 <div>
-                    <Image src={"/CM8One.jpg"} width={500} height={500} alt="CM8One" className="w-full h-[25rem] object-cover" />
+                    <Image src={"/CM8One.jpg"} width={500} height={500} alt="CM8One" className="w-full h-full object-cover" />
                 </div>
                 <div className="flex justify-center items-center p-10 bg-white text-black">
                     <div>
@@ -78,11 +78,11 @@ export function ComponentTwelve() {
                     </div>
                 </div>
                 <div>
-                    <Image src={"/CM8Two.jpg"} width={500} height={500} alt="CM8One" className="w-full h-[25rem] object-cover" />
+                    <Image src={"/CM8Two.jpg"} width={500} height={500} alt="CM8One" className="w-full h-full object-cover" />
                 </div>
                 {/* Box Three */}
                 <div>
-                    <Image src={"/CM8Three.jpg"} width={500} height={500} alt="CM8One" className="w-full h-[25rem] object-cover" />
+                    <Image src={"/CM8Three.jpg"} width={500} height={500} alt="CM8One" className="w-full h-full object-cover" />
                 </div>
                 <div className="flex justify-center items-center p-10 bg-black text-white">
                     <div>

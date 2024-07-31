@@ -1,4 +1,4 @@
-'use client'
+'use cLinkent'
 import {
   Sheet,
   SheetClose,
@@ -9,6 +9,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import Image from "next/image"
+import Link from "next/link"
 import { LuMenu } from "react-icons/lu"
 
 export function SideNavComponent() {
@@ -26,13 +27,12 @@ export function SideNavComponent() {
             </SheetDescription>
           </SheetHeader>
           <ul className="flex flex-col gap-8  text-2xl items-center font-bold">
-
-            <li><SheetClose>Home </SheetClose> </li>
-            <li><SheetClose>CompsOne </SheetClose> </li>
-            <li><SheetClose>CompsTwo </SheetClose> </li>
-            <li><SheetClose>CompsThree </SheetClose> </li>
-            <li><SheetClose>CompsFour </SheetClose> </li>
-            <li><SheetClose>Contact Us </SheetClose> </li>
+            <Link href="/"><SheetClose>Home </SheetClose> </Link>
+            <Link href="/ui_one"><SheetClose>CompsOne </SheetClose> </Link>
+            <Link href="/ui_two"><SheetClose>CompsTwo </SheetClose> </Link>
+            <Link href="/ui_three"><SheetClose>CompsThree </SheetClose> </Link>
+            <Link href="/ui_four"><SheetClose>CompsFour </SheetClose> </Link>
+            <Link href="/contact_us"><SheetClose>Contact Us </SheetClose> </Link>
           </ul>
           <div className="absolute -z-10 w-full bottom-6">
               <Image src="/cartoon.png" width={600} height={600} alt="" className="w-full opacity-5" />

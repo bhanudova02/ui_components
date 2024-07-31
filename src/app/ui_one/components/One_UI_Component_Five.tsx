@@ -1,5 +1,6 @@
 "use client"
 import { DialogBox } from "@/components/DialogBox";
+import Image from "next/image";
 import { FaPlus } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
@@ -46,9 +47,12 @@ export function One_UI_Component_Five() {
         import { FaPlus } from "react-icons/fa";
         import { HiOutlineMail } from "react-icons/hi";
 
+
+        SVG Icon Link: https://www.mediafire.com/file/oolbe4zcpmem7k7/star.svg/file
+
         Code:
         -----
-                    <div className="bg-white p-4 rounded-md grid grid-cols-2">
+                     <div className="bg-white p-4 rounded-md grid grid-cols-2">
                         <div className="space-x-1">
                             <button type="button" className="inline-flex items-center gap-[1px] p-1 border border-transparent rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                                 <FaPlus className="text-sm" />
@@ -66,8 +70,18 @@ export function One_UI_Component_Five() {
                                 <FaPlus className="text-2xl" />
                             </button>
                         </div>
-                        <div>
-                            mt space
+                        <div className="flex items-center justify-center">
+                            <div className="flex items-center gap-2">
+                                {Array(5).fill(1).map((_, index) => (
+                                    <Image
+                                        src="/star.svg"
+                                        key={index}
+                                        alt="star"
+                                        width={24}
+                                        height={24}
+                                    />
+                                ))}
+                            </div>
                         </div>
                     </div>
 
@@ -123,8 +137,18 @@ export function One_UI_Component_Five() {
                                 <FaPlus className="text-2xl" />
                             </button>
                         </div>
-                        <div>
-                            mt space
+                        <div className="flex items-center justify-center">
+                            <div className="flex items-center gap-2">
+                                {Array(5).fill(1).map((_, index) => (
+                                    <Image
+                                        src="/star.svg"
+                                        key={index}
+                                        alt="star"
+                                        width={24}
+                                        height={24}
+                                    />
+                                ))}
+                            </div>
                         </div>
                     </div>
                     <div onClick={handelCodeCopySecond} className="mt-4 opacity-60 hover:opacity-80 w-fit font-medium text-white rounded-md">

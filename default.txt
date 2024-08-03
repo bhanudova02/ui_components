@@ -9,6 +9,10 @@
         ------------------
         https://www.mediafire.com/folder/tatwoecdmiw2b/Component+Images
 
+        RenderCode:
+        -----------
+        
+
         `;
         navigator.clipboard.writeText(codeToCopy)
     }

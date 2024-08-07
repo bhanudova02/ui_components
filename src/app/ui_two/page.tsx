@@ -1,3 +1,5 @@
+"use client"
+import { useEffect } from "react";
 import Two_UI_Component_Eight from "./components/Two_UI_Component_Eight";
 import Two_UI_Component_Eighteen from "./components/Two_UI_Component_Eighteen";
 import Two_UI_Component_Eleven from "./components/Two_UI_Component_Eleven";
@@ -19,7 +21,24 @@ import Two_UI_Component_Twelve from "./components/Two_UI_Component_Twelve";
 import Two_UI_Component_Twenty from "./components/Two_UI_Component_Twenty";
 import Two_UI_Component_Two from "./components/Two_UI_Component_Two";
 
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function page() {
+    useEffect(() => {
+        const initAos = async () => {
+            await import('aos')
+            AOS.init({
+                duration: 1000,
+                easing: 'ease',
+                once: true,
+                anchorPlacement: 'top-center'
+            })
+        };
+        initAos();
+    }, [])
+
     return (
         <div className="pt-24 pb-14 bg-black/50 space-y-16">
             <Two_UI_Component_One />
@@ -35,7 +54,7 @@ export default function page() {
             <Two_UI_Component_Eleven />
             <Two_UI_Component_Twelve /> */}
 
-            
+
             <Two_UI_Component_Thirteen />
             <Two_UI_Component_Fourteen />
             <Two_UI_Component_Fifteen />

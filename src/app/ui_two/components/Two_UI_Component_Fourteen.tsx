@@ -53,28 +53,32 @@ const Two_UI_Component_Fourteen = () => {
 main page.tsx
 -------------
 
+'use client'
+import { useEffect } from "react";
+import Two_UI_Component_Fourteen from "./components/Two_UI_Component_Fourteen";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-export default function page() {
-    useEffect(() => {
-        const initAos = async () => {
-            await import('aos')
-            AOS.init({
-                duration: 1000,
-                easing: 'ease',
-                once: true,
-                anchorPlacement: 'top-center'
-            })
-        };
-        initAos();
-    }, [])
+export default function Home() {
 
-    return (
-        <div className="pt-24 pb-14 bg-black/50 space-y-16">
-            <Two_UI_Component_Fourteen />  
-        </div>
-    )
+  useEffect(() => {
+    const initAos = async () => {
+      await import('aos')
+      AOS.init({
+        duration: 1000,
+        easing: 'ease',
+        once: true,
+        anchorPlacement: 'top-center'
+      })
+    };
+    initAos();
+  }, [])
+
+  return (
+    <div className="pt-24 pb-14 bg-black/50 space-y-16" >
+      <Two_UI_Component_Fourteen />
+    </div>
+  );
 }
 
 

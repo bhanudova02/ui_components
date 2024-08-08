@@ -1,14 +1,4 @@
-import React from 'react'
-
-interface newsCardProps {
-    title: string;
-    image: string;
-    date: string;
-    height: string
-}
-
-
-const NewsCard = ({ date, height, image, title }: newsCardProps) => {
+const NewsCard = ({ date, height, image, title }: any) => {
     const cardBackground = {
         backgroundImage: `url(${image})`
     }

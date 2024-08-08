@@ -52,40 +52,40 @@ export default function Home() {
   }, [])
 
   return (
-    <div className= "pt-24 pb-14 bg-black/50 space-y-16" >
-    <Two_UI_Component_One />
-    < Two_UI_Component_Two />
-    <Two_UI_Component_Three />
-    < Two_UI_Component_Four />
-    <Two_UI_Component_Five />
-    < Two_UI_Component_Six />
-    <Two_UI_Component_Seven />
-    < Two_UI_Component_Eight />
-    <Two_UI_Component_Nine />
-    < Two_UI_Component_Ten />
-    <Two_UI_Component_Eleven />
-    < Two_UI_Component_Twelve />
-    <Two_UI_Component_Thirteen />
-    < Two_UI_Component_Fourteen />
-    <Two_UI_Component_Fifteen />
-    < Two_UI_Component_Sixteen />
-    <Two_UI_Component_Seventeen />
-    < Two_UI_Component_Eighteen />
-    <Two_UI_Component_Nineteen />
-    < Two_UI_Component_Twenty />
-    <Two_UI_Component_Twenty_One />
-    < Two_UI_Component_Twenty_Two />
-    <Two_UI_Component_Twenty_Three />
-    < Two_UI_Component_Twenty_Four />
-    <Two_UI_Component_Twenty_Five />
-    < Two_UI_Component_Twenty_Six />
-    <Two_UI_Component_Twenty_Seven />
-    < Two_UI_Component_Twenty_Eight />
-    <Two_UI_Component_Twenty_Nine />
-    < Two_UI_Component_Twenty_Thirty />
-    <Two_UI_Component_Twenty_Thirty_One />
-    < Two_UI_Component_Twenty_Thirty_Two />
-    <Two_UI_Component_Twenty_Thirty_Three/>
+    <div className="pt-24 pb-14 bg-black/50 space-y-16" >
+      <Two_UI_Component_One />
+      <Two_UI_Component_Two />
+      <Two_UI_Component_Three />
+      <Two_UI_Component_Four />
+      <Two_UI_Component_Five />
+      <Two_UI_Component_Six />
+      <Two_UI_Component_Seven />
+      <Two_UI_Component_Eight />
+      <Two_UI_Component_Nine />
+      <Two_UI_Component_Ten />
+      <Two_UI_Component_Eleven />
+      <Two_UI_Component_Twelve />
+      <Two_UI_Component_Thirteen />
+      <Two_UI_Component_Fourteen />
+      <Two_UI_Component_Fifteen />
+      <Two_UI_Component_Sixteen />
+      <Two_UI_Component_Seventeen />
+      <Two_UI_Component_Eighteen />
+      <Two_UI_Component_Nineteen />
+      <Two_UI_Component_Twenty />
+      <Two_UI_Component_Twenty_One />
+      <Two_UI_Component_Twenty_Two />
+      <Two_UI_Component_Twenty_Three />
+      <Two_UI_Component_Twenty_Four />
+      <Two_UI_Component_Twenty_Five />
+      <Two_UI_Component_Twenty_Six />
+      <Two_UI_Component_Twenty_Seven />
+      <Two_UI_Component_Twenty_Eight />
+      <Two_UI_Component_Twenty_Nine />
+      <Two_UI_Component_Twenty_Thirty />
+      <Two_UI_Component_Twenty_Thirty_One />
+      <Two_UI_Component_Twenty_Thirty_Two />
+      <Two_UI_Component_Twenty_Thirty_Three />
     </div>
   );
 }

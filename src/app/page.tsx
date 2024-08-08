@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="pt-24 pb-14 bg-black/50 space-y-16">
       <ComponentFour />
-      {/* <CardComponentOne />
+      <CardComponentOne />
       <ComponentOne />
       <ComponentTwo/>
       <ComponentThree/>
@@ -27,7 +27,7 @@ export default function Home() {
       <ComponentNine/>
       <ComponentTen/>
       <ComponentLeven/>
-      <ComponentTwelve/> */}
+      <ComponentTwelve/>
     </div>
   );
 }

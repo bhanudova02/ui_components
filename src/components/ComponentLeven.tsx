@@ -41,7 +41,7 @@ export function ComponentLeven() {
         navigator.clipboard.writeText(codeToCopy)
     }
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Method One */}

@@ -36,7 +36,7 @@ const Two_UI_Component_One = () => {
     navigator.clipboard.writeText(codeToCopy)
   }
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
 
       <div >
         <div className="bg-white text-primary-content">

@@ -103,7 +103,7 @@ export default Three_UI_Component_Two
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <footer className="bg-[#888888]">
         <div className="mt-12 relative">
           <div className="w-[80%] mx-auto relative z-10 py-16 lg:flex justify-between">

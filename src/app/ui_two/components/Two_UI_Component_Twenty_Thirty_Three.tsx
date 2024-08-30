@@ -134,7 +134,7 @@ export default Two_UI_Component_Twenty_Thirty_Three
         navigator.clipboard.writeText(codeToCopy)
     }
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
             <div className="bg-[#F1EFEF] py-20 pb-28 px-12 ">
                 <div id="experience" className="container-fluid mx-auto">
                     <div className="text-center">

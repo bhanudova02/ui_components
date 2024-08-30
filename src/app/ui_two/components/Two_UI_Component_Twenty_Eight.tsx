@@ -119,7 +119,7 @@ export default Two_UI_Component_Twenty_Eight
     navigator.clipboard.writeText(codeToCopy)
   }
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className='bg-blue-50'>
         <div className='pt-[3.5rem] pb-[0rem] md:pt-[5rem] md:pb-[1rem] lg:pt-[6.2rem] lg:pb-[2rem]'>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-8 gap-6">

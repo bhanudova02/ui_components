@@ -112,7 +112,7 @@ const Two_UI_Component_Six = () => {
   }
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="bg-[#c3d6c27c] py-10 md:py-20 lg:py-16 ">
         {
           expertiseTitle && expertiseTitle.map(({ id, title }: any) => (

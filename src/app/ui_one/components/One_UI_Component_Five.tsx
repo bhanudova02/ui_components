@@ -91,7 +91,7 @@ export function One_UI_Component_Five() {
 
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
                 <div>

@@ -77,7 +77,7 @@ export default Three_UI_Component_One
   }
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="mt-[4rem] mb-[1rem] bg-white py-10">
         <div className="w-[80%] lg:w-[90%] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

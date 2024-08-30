@@ -11,7 +11,7 @@ https://www.mediafire.com/file/3kps77ztfh109e2/post_3.png/file
 https://www.mediafire.com/file/3fj8rfzciamujbu/post_2.png/file
 ]
 
-<div className="container mx-auto">
+<div className="container mx-auto px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className=" bg-blue-50 h-full flex justify-center items-center">
             <h2 className="text-center font-semibold text-5xl">Demo Box</h2>
@@ -61,7 +61,7 @@ https://www.mediafire.com/file/3fj8rfzciamujbu/post_2.png/file
         navigator.clipboard.writeText(codeToCopy)
     }
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className=" bg-blue-50 h-full flex justify-center items-center">
                     <h2 className="text-center font-semibold text-5xl">Demo Box</h2>

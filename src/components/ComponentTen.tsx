@@ -12,7 +12,7 @@ export function ComponentTen() {
         navigator.clipboard.writeText(copyToCode)
     }
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-gradient-to-tl h-[200px] relative text-white pt-20 pb-16 rounded-md shadow-md  from-[#71df95] via-[#024922] to-black flex justify-center items-center">
 
             </div>

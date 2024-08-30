@@ -60,7 +60,7 @@ export default Two_UI_Component_Twenty_Thirty_One
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
 
       <div className="bg-[#333333] shadow-lg m-4 md:m-10 rounded-md p-6 md:p-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-4">

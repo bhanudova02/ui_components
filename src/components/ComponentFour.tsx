@@ -53,7 +53,7 @@ Style.Css
     --bg-opacity: 0.75;
 }
  
- <div className="container mx-auto">
+ <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="w-full bg-white py-3 sm:py-6 px-4 sm:px-8 shadow rounded mt-8">
                 <div className="mb-6 flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-between px-8">
                     <h2 className=" text-gray-800 text-lg">Images</h2>
@@ -141,7 +141,7 @@ Style.Css
 
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="w-full bg-white py-3 sm:py-6 px-4 sm:px-8 shadow rounded mt-8">
                 <div className="mb-6 flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-between px-8">
                     <h2 className=" text-gray-800 text-lg">Images</h2>

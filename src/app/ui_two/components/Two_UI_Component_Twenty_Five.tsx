@@ -227,7 +227,7 @@ const Two_UI_Component_Twenty_Five = () => {
   }
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-start gap-8 lg:gap-0">
         <div className="lg:w-2/3 w-full h-[768px] pb-6 md:pb-0 overflow-y-scroll">
           <div className="mx-auto bg-white shadow rounded w-full">

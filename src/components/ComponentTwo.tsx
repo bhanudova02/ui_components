@@ -10,7 +10,7 @@ export function ComponentTwo() {
         ------------------
         import { FaRegEdit } from "react-icons/fa";
 
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white shadow rounded mx-auto pb-4 lg:pb-8 w-full">
                 <h2 className="p-4 lg:p-8 text-lg leading-4 font-bold text-color">Approved Payment Modes</h2>
                 <div className="relative bg-gray-100 flex  rounded mx-4 lg:mx-8 mb-4">
@@ -88,7 +88,7 @@ export function ComponentTwo() {
 
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white shadow rounded pb-4 lg:pb-8 w-full">
                 <h2 className="p-4 lg:p-8 text-lg leading-4 font-bold text-color">Approved Payment Modes</h2>
                 <div className="relative bg-gray-100 flex  rounded mx-4 lg:mx-8 mb-4">

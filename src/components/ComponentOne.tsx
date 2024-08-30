@@ -74,7 +74,7 @@ export function ComponentOne() {
     }
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
             <div className="w-full rounded shadow bg-white py-8 px-6">
                 <h2 className="text-[#4A5568] text-lg font-bold">Task progress</h2>

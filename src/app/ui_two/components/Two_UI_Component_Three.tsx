@@ -89,7 +89,7 @@ const Two_UI_Component_Three = () => {
     navigator.clipboard.writeText(codeToCopy)
   }
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="bg-[#F2F2F2] text-primary-content p-1  md:p-4 lg:p-0">
         <div className="flex flex-col lg:flex-row gap-4 md:max-w-3xl max-w-[90%] lg:max-w-6xl mx-auto py-6 md:py-12">
           <div className="w-full lg:w-[60%] relative">

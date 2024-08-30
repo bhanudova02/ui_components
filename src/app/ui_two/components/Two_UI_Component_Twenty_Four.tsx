@@ -316,7 +316,7 @@ const Two_UI_Component_Twenty_Four = () => {
     navigator.clipboard.writeText(codeToCopy)
   }
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className='bg-gray-50 pt-6'>
         <div className="container w-11/12 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 my-12 gap-8">
           <div className="bg-white shadow-md flex flex-col items-center p-8 rounded">

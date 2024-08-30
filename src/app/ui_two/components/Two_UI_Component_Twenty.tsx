@@ -43,7 +43,7 @@ const Two_UI_Component_Twenty = () => {
   }
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className='pt-[5rem] pb-[3rem] bg-sky-50'>
         {/* Heading */}
         <h1 className='text-3xl font-bold w-[90%] mx-auto'>Match Highlights</h1>

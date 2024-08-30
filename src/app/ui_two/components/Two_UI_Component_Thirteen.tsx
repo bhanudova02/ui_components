@@ -192,7 +192,7 @@ export default Two_UI_Component_Thirteen
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className='bg-green-100'>
         <div className="pt-[3rem] pb-[3rem]">
           <h1 className="text-center text-4xl font-bold">

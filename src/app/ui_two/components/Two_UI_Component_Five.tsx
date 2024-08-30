@@ -70,7 +70,7 @@ const Two_UI_Component_Five = () => {
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="bg-white text-primary-content mt-[-8px] py-16">
         <div className="flex justify-center items-center max-w-[90%] md:max-w-3xl lg:max-w-6xl mx-auto">
           <div>

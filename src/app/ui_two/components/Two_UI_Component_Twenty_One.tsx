@@ -12,7 +12,7 @@ const Two_UI_Component_Twenty_One = () => {
 
   RenderCode:
   -----------
-   <div className='container mx-auto'>
+   <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-12 gap-8">
           <div className="bg-white rounded shadow px-8 py-6 flex items-center">
             <div className="p-4 bg-yellow-400 rounded">
@@ -96,7 +96,7 @@ const Two_UI_Component_Twenty_One = () => {
 
   return (
     <div>
-      <div className='container mx-auto'>
+      <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-8 gap-8">
           <div className="bg-white rounded shadow px-8 py-6 flex items-center">
             <div className="p-4 bg-yellow-400 rounded">

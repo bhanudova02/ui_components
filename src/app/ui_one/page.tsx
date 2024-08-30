@@ -18,10 +18,6 @@ export default function page() {
             <One_UI_Component_Four/>
             <One_UI_Component_Five/>
             <One_UI_Component_Six/>
-
-
-
-           
             <One_UI_Component_Seven />
             <One_UI_Component_Eight />
             <One_UI_Component_Nine />

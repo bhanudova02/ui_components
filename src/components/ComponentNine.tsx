@@ -120,7 +120,7 @@ export function ComponentNine() {
         navigator.clipboard.writeText(codeToCopy)
     }
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-[#292930] flex justify-center items-center px-4 md:px-20 lg:px-20  pt-20 pb-14">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                     <div>

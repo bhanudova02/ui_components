@@ -49,7 +49,7 @@ const Two_UI_Component_Ten = () => {
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="bg-[#D5EA95] w-full text-primary-content">
         <div className="flex justify-center items-center py-10">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">

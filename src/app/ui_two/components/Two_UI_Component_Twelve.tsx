@@ -49,7 +49,7 @@ const Two_UI_Component_Twelve = () => {
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="bg-[#C4D7B2] py-12 text-primary-content">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[90%] md:max-w-3xl lg:max-w-6xl mx-auto">
           <div>

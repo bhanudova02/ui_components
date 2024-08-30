@@ -94,7 +94,7 @@ const Two_UI_Component_Nine = () => {
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="flex justify-center pb-4 md:pb-2 bg-[#EEF7D4] text-primary-content">
         <div className="max-w-[90%] md:max-w-3xl lg:max-w-6xl mx-auto">
           <h2 className="text-center text-xl md:text-2xl lg:text-3xl font-bold uppercase mt-6 md:mt-10 ">We have expertise in these areas</h2>

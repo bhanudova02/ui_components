@@ -2,7 +2,9 @@ import React from 'react'
 
 const Three_UI_Component_Nine = () => {
   return (
-    <div>Three_UI_Component_Nine</div>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
+      
+    </div>
   )
 }
 

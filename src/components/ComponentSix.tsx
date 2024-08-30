@@ -27,7 +27,7 @@ export function ComponentSix() {
      ]
 
         
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="py-4 px-8 bg-[#F3F4F6]">
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-12 gap-8">
                     {cardData.map((card, index) =>
@@ -81,7 +81,7 @@ export function ComponentSix() {
         { imgSrc: 'https://tuk-cdn.s3.amazonaws.com/assets/templates/Education-Portal/ep_16.png', subTitle: 'Workplace', title: 'Emotional Intelligence at Work', price: '$102' },
     ]
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="py-4 px-8 bg-[#F3F4F6]">
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-12 gap-8">
                     {cardData.map((card, index) =>

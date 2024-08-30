@@ -54,7 +54,7 @@ const One_UI_Component_Six = () => {
 
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
                 <div>
                     <div className="bg-gray-100 rounded-md flex items-center justify-center p-4">

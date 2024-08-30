@@ -100,7 +100,7 @@ export default ReservationForm;
     navigator.clipboard.writeText(copyToCode)
   }
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="pt-[5rem] bg-center bg-cover relative mt-[2rem] pb-[5rem] mb-[3rem] bg-[url('/bg-black.jpg')]">
         {/* Overlay */}
         <div className='absolute w-full h-full bg-[#000000a6] top-0 left-0 right-0 bottom-0' />

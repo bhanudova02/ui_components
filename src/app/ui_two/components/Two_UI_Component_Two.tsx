@@ -75,7 +75,7 @@ const Two_UI_Component_Two = () => {
     }
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div>
                 <div className="flex justify-center items-center py-10 bg-[#E5E6E6] text-primary-content">
                     <div>

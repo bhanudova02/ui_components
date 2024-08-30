@@ -93,7 +93,7 @@ const tableData = [
 ]
 
 
-<div className="container mx-auto">
+<div className="container mx-auto px-4 sm:px-6 lg:px-8">
     <div className="shadow border border-gray-300 rounded mt-8 w-full overflow-x-scroll lg:overflow-hidden">
         <table className="min-w-full bg-white rounded">
             <thead>
@@ -237,7 +237,7 @@ const tableData = [
         }
     ]
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="shadow border border-gray-300 rounded mt-8 w-full overflow-x-scroll lg:overflow-hidden">
                 <table className="min-w-full bg-white rounded">
                     <thead>

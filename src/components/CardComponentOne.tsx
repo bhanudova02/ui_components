@@ -20,7 +20,7 @@ export function CardComponentOne() {
         Copy Code
         ---------
         
-        <div className="container mx-auto  w-full px-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-8">
                 <div className="bg-white rounded shadow pl-6 px-2  py-6 flex items-center">
                     <div className="p-4 bg-[#4299e1] rounded">
@@ -65,7 +65,7 @@ export function CardComponentOne() {
     }
 
     return (
-        <div className="container mx-auto  w-full px-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-8">
                 <div className="bg-white rounded shadow pl-6 px-2  py-6 flex items-center">
                     <div className="p-4 bg-[#4299e1] rounded">

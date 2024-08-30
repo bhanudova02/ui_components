@@ -19,7 +19,7 @@ const Two_UI_Component_Eighteen = () => {
   }
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className='py-[3rem] bg-blue-50'>
         {/* Heading */}
         <h1 className='w-[80%] mx-auto font-bold text-3xl'>Latest News</h1>

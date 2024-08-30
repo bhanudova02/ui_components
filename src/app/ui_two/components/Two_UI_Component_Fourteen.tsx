@@ -162,7 +162,7 @@ export default Two_UI_Component_Fourteen
 
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="pt-[8rem] pb-[3rem] bg-[#EEEEEE]">
         <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[3rem] items-center">
           <div data-aos="fade-right" data-aos-anchor-placement="top-center">

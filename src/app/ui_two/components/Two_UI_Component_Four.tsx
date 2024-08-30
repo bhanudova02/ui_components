@@ -71,7 +71,7 @@ const Two_UI_Component_Four = () => {
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="flex justify-center py-20 mt-[-5px] bg-[#e3eedd91] text-primary-content">
         <div className="text-center max-w-[90%] md:max-w-3xl lg:max-w-6xl ">
           {

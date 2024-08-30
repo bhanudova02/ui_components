@@ -238,7 +238,7 @@ export default Two_UI_Component_Twenty_Thirty_Two
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className='bg-[#F2F2F2] py-10'>
         <div className="text-center text-accent-content">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2">Technologies</h2>

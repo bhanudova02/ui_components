@@ -143,7 +143,7 @@ const Two_UI_Component_Nineteen = () => {
     navigator.clipboard.writeText(codeToCopy)
   }
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <section className='bg-teal-200'>
         <div className="w-[90%] mx-auto py-16">
           <div className="flex flex-col lg:items-center justify-center w-full text-black">

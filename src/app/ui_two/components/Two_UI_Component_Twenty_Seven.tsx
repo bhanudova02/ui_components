@@ -130,7 +130,7 @@ const Two_UI_Component_Twenty_Seven = () => {
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <main className="relative bg-gray-800 overflow-hidden">
         <div className="relative pt-6 pb-16 sm:pb-24">
           <div className="mt-16 sm:mt-24">

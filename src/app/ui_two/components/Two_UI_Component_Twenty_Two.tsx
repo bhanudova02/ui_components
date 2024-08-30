@@ -67,7 +67,7 @@ const Two_UI_Component_Twenty_Two = () => {
   }
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div>
         <div className="relative">
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>

@@ -50,7 +50,7 @@ const Two_UI_Component_Seventeen = () => {
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <section className='bg-teal-50'>
         <div className="w-[85%] mx-auto py-16">
           <div className="flex flex-col items-center justify-center w-full py-10">

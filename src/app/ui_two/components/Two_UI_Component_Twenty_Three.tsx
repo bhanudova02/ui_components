@@ -231,7 +231,7 @@ const Two_UI_Component_Twenty_Three = () => {
 }
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex flex-wrap">
         <div className="lg:w-3/5 w-full lg:pr-8 mb-12">
           <div className="bg-white shadow-sm rounded xl:px-8 sm:px-4 py-8 px-4">

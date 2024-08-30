@@ -67,7 +67,7 @@ const Two_UI_Component_Eight = () => {
 
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="flex justify-center items-center text-primary-content bg-[#eef7d467]">
         <div className="p-6 pb-10">
           <h2 className="text-center text-xl md:text-2xl lg:text-3xl font-bold uppercase  text-lime-900">Why Choose Us</h2>

@@ -156,7 +156,7 @@ export default Two_UI_Component_Twenty_Nine
     navigator.clipboard.writeText(codeToCopy)
   }
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <div className="bg-[#F2F2F2]">
         <div className='pt-[5rem] pb-[14px] md:pt-[6.3rem] md:pb-[8px] lg:pt-[7.9rem] lg:pb-[1px]'>
           <div className="text-accent-content pb-[1rem] mx-6">

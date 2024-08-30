@@ -164,7 +164,7 @@ export default Three_UI_Component_Three
 }
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
       <footer className="bg-white" aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">Footer</h2>
         <div className="max-w-7xl mx-auto pt-14 pb-6 px-4 sm:px-6 lg:px-8">

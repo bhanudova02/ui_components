@@ -1,4 +1,5 @@
 import One_UI_Component_Eight from "./components/One_UI_Component_Eight";
+import One_UI_Component_Eleven from "./components/One_UI_Component_Eleven";
 import { One_UI_Component_Five } from "./components/One_UI_Component_Five";
 import { One_UI_Component_Four } from "./components/One_UI_Component_Four";
 import One_UI_Component_Nine from "./components/One_UI_Component_Nine";
@@ -13,18 +14,18 @@ export default function page() {
     return (
         <div className="pt-24 pb-14 bg-black/50 space-y-16">
             <One_UI_Component_One />
-            <One_UI_Component_Two/>
-            <One_UI_Component_Three/>
-            <One_UI_Component_Four/>
-            <One_UI_Component_Five/>
-            <One_UI_Component_Six/>
+            <One_UI_Component_Two />
+            <One_UI_Component_Three />
+            <One_UI_Component_Four />
+            <One_UI_Component_Five />
+            <One_UI_Component_Six />
             <One_UI_Component_Seven />
             <One_UI_Component_Eight />
             <One_UI_Component_Nine />
             <One_UI_Component_Ten />
+            <One_UI_Component_Eleven />
 
-
-            {/* <One_UI_Component_Eleven />
+            {/* 
             <One_UI_Component_Twelve />
             <One_UI_Component_Thirteen />
             <One_UI_Component_Fourteen />
